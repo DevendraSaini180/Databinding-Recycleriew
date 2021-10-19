@@ -1,13 +1,13 @@
-package com.saini.databindingapplication;
+package com.saini.databindingapplication.views.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.DividerItemDecoration;
 
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Toast;
 
+import com.saini.databindingapplication.R;
+import com.saini.databindingapplication.views.adapter.UserAdapter;
 import com.saini.databindingapplication.databinding.ActivityMainBinding;
 import com.saini.databindingapplication.model.User;
 
